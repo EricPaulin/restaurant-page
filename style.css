@@ -1,0 +1,113 @@
+@font-face {
+    font-family: written;
+    src: url(./fonts/LondrinaOutline-Regular.ttf);
+}
+
+
+* {
+    /* Resets Browser's Padding and Margin */
+    margin: 0;
+    padding: 0;
+}
+
+#tabs {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    color: aliceblue;
+    background: linear-gradient(#010005, #13131d);
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    width: 100vw;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+li:hover {
+   cursor: pointer; 
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #89352a;
+
+    width: 100vw;
+    height: 85vh;
+}
+
+.m1 {
+    position: absolute;
+
+    font-family: written;
+    font-size: 5rem;
+    color: aliceblue;
+    top: 25%;
+    left: 27.4%;
+}
+
+.m2 {
+    position: absolute;
+
+    font-family: written;
+    font-size: 5rem;
+    color: aliceblue;
+    bottom: 12%;
+    right: 25.5%;
+}
+
+img {
+    border-radius: 0.2rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+/* Menu */
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+
+    width: 75vw;
+    height: 35vh;
+    grid-template-rows: 13rem;
+    grid-template-columns: repeat(4, clamp(10rem, 13rem, 15rem));
+    
+    column-gap: 2.5rem;
+}
+
+/* Contact */
+
+.info {
+    display:grid;
+    justify-content: center;
+    width: 30vw;
+    height: 35vh;
+
+    border: 0.1rem solid aliceblue;
+    margin-bottom: 2rem;
+}
+
+.hours {
+    font-family: written;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.contactTxt {
+    font-family: monospace;
+    font-size: 2rem;
+}
